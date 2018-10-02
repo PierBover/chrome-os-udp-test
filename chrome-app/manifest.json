@@ -1,0 +1,16 @@
+{
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	"manifest_version": 2,
+	"name": "UDP Test",
+	"version": "0.0.1",
+	"sockets": {
+		"udp": {
+			"send": ["*"],
+			"bind": ["*"]
+		}
+	}
+}
